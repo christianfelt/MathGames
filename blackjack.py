@@ -69,6 +69,7 @@ class Blackjack:
             self.latest_result = "lose"
 
     def play_game(self):
+        """Plays the game."""
         name = input("What is your name? ")
         self.set_player_name(name)
         print("Hello,", self.player_name)
@@ -158,5 +159,6 @@ class Blackjack:
 
 
 if __name__ == '__main__':
+    """Plays the game."""
     blackjack = Blackjack()
     blackjack.play_game()

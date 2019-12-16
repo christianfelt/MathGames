@@ -58,6 +58,7 @@ class Deck:
 
 
 if __name__ == '__main__':
+    # Tests
     deck = Deck()
     deck.shuffle()
     this_card = deck.draw()
