@@ -10,7 +10,7 @@ class Blackjack:
     def __init__(self, max_score=21):
         """Set up basic game parameters."""
         self.player_bank = 100
-        self.dealer_bank = 100
+        self.dealer_bank = 1000
         self.player_score = 0
         self.game_in_progress = True
         self.dealer_score = 0
